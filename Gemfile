@@ -45,3 +45,6 @@ gem "factory_girl_rails", ">= 4.1.0", :group => [:development, :test]
 gem "bootstrap-sass", ">= 2.1.0.0"
 gem "devise", ">= 2.1.2"
 gem "simple_form", ">= 2.0.4"
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "therubyracer", ">= 0.10.2", :group => :assets, :platform => :ruby
+gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
