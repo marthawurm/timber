@@ -35,3 +35,13 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "mongoid", ">= 3.0.9"
+gem "haml", ">= 3.1.7"
+gem "haml-rails", ">= 0.3.5", :group => :development
+gem "hpricot", ">= 0.8.6", :group => :development
+gem "ruby_parser", ">= 2.3.1", :group => :development
+gem "factory_girl_rails", ">= 4.1.0", :group => [:development, :test]
+gem "bootstrap-sass", ">= 2.1.0.0"
+gem "devise", ">= 2.1.2"
+gem "simple_form", ">= 2.0.4"
